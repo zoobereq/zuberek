@@ -56,13 +56,13 @@ header {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr;
-    padding: 128px 24px 64px 24px;
+    padding: 128px 24px 128px 24px;
   }
 
   .main-image {
     grid-column-start: 1;
     grid-column-end: 2;
-    max-height: 80vh;
+    max-height: 100%;
     max-width: 100%;
     box-shadow: 2px 2px 5px gray;
     margin: 20px;
@@ -116,10 +116,20 @@ header {
 /* Footer */
 
 footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  border-top: solid 1px black;
+  background-color: white;
+  opacity: 0.9;
+  animation: 0.75s ease-out 0.5s 1 slideInFromBottom;
+}
+
+footer .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: solid 1px black;
   height: 64px;
   padding-left: 24px;
   padding-right: 24px;
@@ -134,4 +144,13 @@ footer .icons {
 .icons img {
   margin-left: 5px;
   margin-right: 5px;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
