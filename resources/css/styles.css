@@ -1,0 +1,135 @@
+html {
+    font-size: 16px;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+/* Nav Bar */
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-bottom: solid 1px black;
+    background-color: white;
+    opacity: 0.9;
+    animation: 0.75s ease-out 0.5s 1 slideInFromTop;
+  }
+
+  header .content {
+    display: flex;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+  }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.25s
+  }
+  
+  nav a:hover {
+    color: lightslategray;
+  }
+ 
+  header nav ul {
+    display: flex;
+  }
+  
+  header nav li {
+    padding-left: 16px;
+  }
+
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+/* Main Section */
+
+  .main {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    padding: 64px 24px 64px 24px;
+  }
+
+  .main-image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    max-height: 80vh;
+    max-width: 100%;
+    box-shadow: 2px 2px 5px gray;
+    margin: 20px;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-column-start: 2;
+    max-height: 80vh;
+    max-width: 100%;
+    margin: 20px;
+  }
+
+  .content-container h1 {
+    font-size: 1.5rem;
+    text-align: right;
+    animation: 0.75s ease-out 0s 1 slideInFromRight;
+    font-family: "Crimson Text", serif;
+  }
+
+  .content-container h2 {
+    font-size: 3rem;
+    text-align: right;
+    color: black;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid 1px black;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+footer .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.icons img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
