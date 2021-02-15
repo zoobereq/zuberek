@@ -113,7 +113,7 @@ html {
     display: grid;
     grid-template-rows: repeat(10, 1fr);
     grid-template-columns: repeat(10, 1fr);
-    margin: 48px 24px 0px 24px;
+    margin: 48px 24px 48px 24px;
     max-height: 80vh;
   }
 
