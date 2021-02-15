@@ -1,13 +1,21 @@
+/* General */
+
 html {
     font-size: 16px;
     font-family: "Julius Sans One", sans-serif;
+    /*border: 1px solid black;*/
+}
+
+.inanimate {
+  animation: none;
 }
 
 /* Nav Bar */
 
-header {
+  header {
     position: fixed;
     z-index: 1;
+    top: 0;
     width: 100%;
     border-bottom: solid 1px black;
     background-color: white;
@@ -55,14 +63,15 @@ header {
   .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 128px 24px;
+    margin: 128px 24px;
+    align-content: center;
   }
 
   .main-image {
     grid-column-start: 1;
     max-height: 100%;
     max-width: 100%;
-    box-shadow: 2px 2px 5px gray;
+    box-shadow: 5px 5px 5px gray;
     margin: 20px;
     animation: 1s ease-out 0s 1 slideInFromLeft;
   }
@@ -78,7 +87,7 @@ header {
   }
 
   .content-container h1 {
-    font-size: 1.5rem;
+    font-size: 2vw;
     text-align: right;
     animation: 0.75s ease-out 0s 1 slideInFromRight;
     font-family: "Crimson Text", serif;
@@ -86,7 +95,7 @@ header {
   }
 
   .content-container h2 {
-    font-size: 3rem;
+    font-size: 3vw;
     text-align: right;
     animation: 1s ease-out 0s 1 slideInFromRight;
     margin-left: 50px;
