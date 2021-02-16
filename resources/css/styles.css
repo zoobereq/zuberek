@@ -140,6 +140,7 @@ hr {
     text-align: left;
     animation: 1s ease-out 0s 1 slideInFromRight;
     font-family: 'Crimson Pro', serif;
+    line-height: 1.5rem;
   }
 
   .schools {
