@@ -16,6 +16,15 @@ html {
   animation: none;
 }
 
+a {
+  color: lightslategray; 
+  text-decoration: none;  
+}
+
+hr {
+  animation: 0.5s ease-out 0s 1 slideInFromRight;
+}
+
 /* Nav Bar */
 
   header {
@@ -86,6 +95,16 @@ html {
   .content-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    grid-column-start: 2;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0px 24px;
+  }
+
+  .content-container-home {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     grid-column-start: 2;
     max-height: 100%;
@@ -93,19 +112,34 @@ html {
     margin: 0px 24px;
   }
 
-  .content-container h1 {
-    font-size: 2vw;
+  .content-container-home h1 {
+    font-size: 1.5vw;
     text-align: right;
     animation: 0.75s ease-out 0s 1 slideInFromRight;
-    font-family: "Crimson Text", serif;
+    font-family: "Crimson Pro", serif;
     margin-left: 50px;
   }
 
-  .content-container h2 {
-    font-size: 3vw;
+  .content-container-home h2 {
+    font-size: 2vw;
     text-align: right;
     animation: 1s ease-out 0s 1 slideInFromRight;
     margin-left: 50px;
+  }
+
+  h3 {
+    font-size: 1.5vw;
+    text-align: left;
+    animation: 0.75s ease-out 0s 1 slideInFromRight;
+  }
+
+  p,
+  .content-container ul {
+    font-size: 1.25vw;
+    font-weight: 200;
+    text-align: left;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+    font-family: 'Crimson Pro', serif;
   }
 
   .schools {
@@ -113,7 +147,10 @@ html {
     display: grid;
     grid-template-rows: repeat(10, 1fr);
     grid-template-columns: repeat(10, 1fr);
-    margin: 48px 24px 48px 24px;
+    margin-top: 10vh;  
+    margin-left: 2.5vw;
+    margin-bottom: 5vh;
+    margin-right: 2.5vw;
     max-height: 80vh;
   }
 
