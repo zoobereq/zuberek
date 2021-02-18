@@ -203,6 +203,12 @@ hr {
     box-shadow: -5px 5px 5px gray;
   }
 
+  #syntaxTree {
+    height: 80vh;
+    max-width: auto;
+    justify-content: space-evenly;
+  }
+
 
 
   @keyframes slideInFromRight {
