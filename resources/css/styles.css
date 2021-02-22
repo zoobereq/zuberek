@@ -83,16 +83,26 @@ b {
 
 /* Main Section */
 
-  .main {
+  /*.main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0px 24px;
     align-content: center;
     height: 100vh;
+  }*/
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 24px;
+    padding-top: 10vh;  
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    padding-bottom: 10vh;
   }
 
+
   #main-edtech {
-    /*border: solid 1px black;*/
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -149,6 +159,7 @@ b {
     max-width: 100%;
     box-shadow: 5px 5px 5px gray;
     margin: 0px 24px;
+    align-self: center;
     animation: 1s ease-out 0s 1 slideInFromLeft;
   }
 
@@ -159,20 +170,9 @@ b {
     grid-column-start: 2;
     max-height: 100%;
     max-width: 100%;
-    margin: 0px 24px;
   }
 
-  .content-container-home {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    grid-column-start: 2;
-    max-height: 100%;
-    max-width: 100%;
-    margin: 0px 24px;
-  }
-
-  .content-container-home h1 {
+  .content-container h1 {
     font-size: 1.5vw;
     text-align: right;
     animation: 0.75s ease-out 0s 1 slideInFromRight;
@@ -180,7 +180,7 @@ b {
     margin-left: 50px;
   }
 
-  .content-container-home h2 {
+  .content-container h2 {
     font-size: 2vw;
     text-align: right;
     animation: 1s ease-out 0s 1 slideInFromRight;
@@ -218,11 +218,10 @@ b {
     grid-column-start: 1;
     display: grid;
     grid-template-rows: repeat(10, 1fr);
-    grid-template-columns: repeat(10, 1fr);
-    margin-top: 10vh;  
+    grid-template-columns: repeat(10, 1fr);   
     margin-left: 2.5vw;
+    margin-right: 5vw;
     margin-bottom: 5vh;
-    margin-right: 2.5vw;
     max-height: 80vh;
   }
 
