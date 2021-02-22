@@ -83,31 +83,21 @@ b {
 
 /* Main Section */
 
-  /*.main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0px 24px;
-    align-content: center;
-    height: 100vh;
-  }*/
-
   .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0px 24px;
     padding-top: 10vh;  
     margin-left: 2.5vw;
     margin-right: 2.5vw;
     padding-bottom: 10vh;
   }
 
-
   #main-edtech {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 10vh;
-    margin-top: 10vh;  
+    padding-top: 10vh;  
     margin-left: 2.5vw;
     margin-right: 2.5vw;
     padding-bottom: 10vh;
