@@ -194,11 +194,21 @@ b {
   }
 
   p,
-  .content-container ul {
+  .content-container ul,
+  #workshops-container ul {
     font-size: 1.25vw;
     font-weight: 200;
     text-align: left;
     animation: 1s ease-out 0s 1 slideInFromRight;
+    font-family: 'Crimson Pro', serif;
+    line-height: 1.5rem;
+  }
+
+  #flipped ul {
+    font-size: 1.25vw;
+    font-weight: 200;
+    text-align: right;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
     font-family: 'Crimson Pro', serif;
     line-height: 1.5rem;
   }
