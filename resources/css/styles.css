@@ -195,7 +195,8 @@ b {
 
   p,
   .content-container ul,
-  #workshops-container ul {
+  #workshops-container ul,
+  #xr-container ul {
     font-size: 1.25rem;
     font-weight: 200;
     text-align: left;
