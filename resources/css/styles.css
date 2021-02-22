@@ -7,8 +7,18 @@ body {
 }
 
 html {
-    font-size: 16px;
+    font-size: 1vw;
     font-family: "Julius Sans One", sans-serif;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 10vh;  
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  padding-bottom: 10vh;
+  align-content: center;
 }
 
 .inanimate {
@@ -72,38 +82,8 @@ b {
     padding-left: 16px;
   }
 
-  @keyframes slideInFromTop {
-    0% {
-      transform: translateY(-100%);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
 
-/* Main Section */
-
-  .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 10vh;  
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    padding-bottom: 10vh;
-    align-content: center;
-  }
-
-  #main-edtech {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 10vh;
-    padding-top: 10vh;  
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    padding-bottom: 10vh;
-    align-content: center;
-  }
+/* Intro */
 
   #main-intro {
     display: flex;
@@ -111,46 +91,6 @@ b {
     align-items: center;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
-  }
-
-  #workshops-image {
-    grid-row-start: 1;
-  }
-
-  #reading-group-image {
-    grid-row-start: 2;
-  }
-
-  #xr-image {
-    grid-row-start: 3;  
-  }
-
-  #workshops-image,
-  #xr-image {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    max-height: auto;
-    max-width: 30vw;
-    animation: 0.5s ease-out 0s 1 slideInFromLeft;
-    box-shadow: 5px 5px 5px gray;
-    margin-left: 5vw;
-  }
-
-  #reading-group-image {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    max-height: auto;
-    max-width: 30vw;
-    animation: 0.5s ease-out 0s 1 slideInFromRight;
-    box-shadow: 5px 5px 5px gray;
-    margin-right: 5vw;
-    justify-self: right;
-  }
-
-  #flipped h3,
-  #flipped p {
-    text-align: right;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
   }
 
   .main-image {
@@ -189,32 +129,98 @@ b {
     margin-left: 50px;
   }
 
-  h3 {
-    font-size: 1.5rem;
-    text-align: left;
-    animation: 0.75s ease-out 0s 1 slideInFromRight;
+
+  /* EdTech */
+
+  #main-edtech {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10vh;
+    padding-top: 10vh;  
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    padding-bottom: 10vh;
+    align-content: center;
+  }
+
+  #workshops-image {
+    grid-row-start: 1;
   }
 
   p,
   .content-container ul,
   #workshops-container ul,
   #xr-container ul {
-    font-size: 1.25rem;
+    font-size: 1.25vw;
     font-weight: 200;
     text-align: left;
     animation: 1s ease-out 0s 1 slideInFromRight;
     font-family: 'Crimson Pro', serif;
-    line-height: 1.5rem;
+    line-height: 1.5vw;
+  }
+
+  h3 {
+    font-size: 1.5vw;
+    text-align: left;
+    animation: 0.75s ease-out 0s 1 slideInFromRight;
+  }
+
+  #flipped h3,
+  #flipped p {
+    text-align: right;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
   }
 
   #flipped ul {
-    font-size: 1.25rem;
+    font-size: 1.25vw;
     font-weight: 200;
     text-align: right;
     animation: 1s ease-out 0s 1 slideInFromLeft;
     font-family: 'Crimson Pro', serif;
     line-height: 1.5rem;
   }
+
+  #workshops-image,
+  #xr-image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    max-height: auto;
+    max-width: 30vw;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+    box-shadow: 5px 5px 5px gray;
+    margin-left: 5vw;
+  }
+
+  #xr-image {
+    grid-row-start: 3;  
+  }
+
+  #reading-group-image {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    max-height: auto;
+    max-width: 30vw;
+    animation: 0.5s ease-out 0s 1 slideInFromRight;
+    box-shadow: 5px 5px 5px gray;
+    margin-right: 5vw;
+    justify-self: right;
+  }
+
+
+  /* CompLing */
+
+  #syntaxTree {
+    grid-column-start: 1;
+    height: 80vh;
+    max-width: auto;
+    justify-content: space-evenly;
+    margin: 0 5vw;
+  }
+
+
+  /* Teaching */
 
   .schools {
     grid-column-start: 1;
@@ -274,33 +280,6 @@ b {
     box-shadow: -5px 5px 5px gray;
   }
 
-  #syntaxTree {
-    grid-column-start: 1;
-    height: 80vh;
-    max-width: auto;
-    justify-content: space-evenly;
-    margin: 0 5vw;
-  }
-
-
-
-  @keyframes slideInFromRight {
-    0% {
-      transform: translateX(200%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-
-  @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
 
 /* Footer */
 
@@ -333,6 +312,36 @@ footer .icons {
 .icons img {
   margin-left: 5px;
   margin-right: 5px;
+}
+
+
+/* Animations */
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes slideInFromBottom {
