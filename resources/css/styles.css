@@ -279,6 +279,7 @@ b {
     height: 80vh;
     max-width: auto;
     justify-content: space-evenly;
+    margin: 0 5vw;
   }
 
 
