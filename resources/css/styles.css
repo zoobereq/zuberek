@@ -223,10 +223,12 @@ b {
   /* Teaching */
 
   .schools {
-    grid-column-start: 1;
     display: grid;
+    grid-column-start: 1;
     grid-template-rows: repeat(10, 1fr);
     grid-template-columns: repeat(10, 1fr);   
+    /*padding-top: 5vh;
+    padding-bottom: 5vh;*/
     margin-left: 2.5vw;
     margin-right: 5vw;
     max-height: 80vh;
@@ -238,7 +240,7 @@ b {
     grid-row-start: 1;
     grid-row-end: 4;
     max-height: auto;
-    max-width: 25vw;
+    max-width: 22vw;
     animation: 0.5s ease-out 0s 1 slideInFromLeft;
     z-index: 9;
     box-shadow: -5px -5px 5px gray;
@@ -247,10 +249,10 @@ b {
   #npu {
     grid-column-start: 5;
     grid-column-end: 10;
-    grid-row-start: 3;
+    grid-row-start: 4;
     grid-row-end: 8;
     max-height: auto;
-    max-width: 25vw;
+    max-width: 22vw;
     animation: 0.75s ease-out 0s 1 slideInFromLeft;
     z-index: 7;
     box-shadow: 5px 5px 5px gray;
@@ -262,7 +264,7 @@ b {
     grid-row-start: 5;
     grid-row-end: 12; 
     max-height: auto;
-    max-width: 25vw;
+    max-width: 22vw;
     animation: 1s ease-out 0s 1 slideInFromLeft;
     z-index: 8;
     box-shadow: -5px 5px 5px gray;
@@ -274,7 +276,7 @@ b {
     grid-row-start: 7;
     grid-row-end: 15; 
     max-height: auto;
-    max-width: 25vw;
+    max-width: 22vw;
     animation: 1.25s ease-out 0s 1 slideInFromLeft;
     z-index: 9;
     box-shadow: -5px 5px 5px gray;
