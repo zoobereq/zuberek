@@ -94,21 +94,21 @@ b {
   }
 
   .main-image {
-    max-height: 70%;
-    max-width: auto;
+    max-height: auto;
+    max-width: 50vw;
     box-shadow: 5px 5px 5px gray;
     animation: 1s ease-out 0s 1 slideInFromLeft;
   }
 
   #main-intro .content-container {
-    height: 70%;
+    height: 70vh;
     justify-content: space-between;
   }
 
   .content-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     grid-column-start: 2;
     max-height: 100%;
     max-width: 100%;
