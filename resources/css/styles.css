@@ -323,6 +323,11 @@ footer .icons {
   margin-right: 0.3vw;
   height: 1.5vw;
   width: auto;
+  transition: transform 0.25s;
+}
+
+.icons img:hover {
+  transform: scale(1.25);
 }
 
 
