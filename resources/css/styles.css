@@ -231,14 +231,14 @@ b {
 
   .schools {
     display: grid;
+    align-self: center;
     grid-column-start: 1;
     grid-template-rows: repeat(10, 1fr);
-    grid-template-columns: repeat(10, 1fr);   
-    /*padding-top: 5vh;
-    padding-bottom: 5vh;*/
+    grid-template-columns: repeat(10, 1fr);
     margin-left: 2.5vw;
     margin-right: 5vw;
-    max-height: 80vh;
+    margin-top: 2.5vh;
+    max-height: 75vh;
   }
 
   #pnw {
