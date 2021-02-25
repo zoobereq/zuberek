@@ -101,8 +101,9 @@ b {
   }
 
   #main-intro .content-container {
-    height: 70vh;
-    justify-content: space-between;
+    max-height: auto;
+    max-width: 50vw;
+    justify-items: stretch;
   }
 
   .content-container {
@@ -115,18 +116,24 @@ b {
   }
 
   .content-container h1 {
+    display: block;
     font-size: 1.5vw;
     text-align: right;
     animation: 0.75s ease-out 0s 1 slideInFromRight;
     font-family: "Crimson Pro", serif;
     margin-left: 3vw;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
   }
 
   .content-container h2 {
+    display: block;
     font-size: 2vw;
     text-align: right;
     animation: 1s ease-out 0s 1 slideInFromRight;
     margin-left: 3vw;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
   }
 
 
