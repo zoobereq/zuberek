@@ -319,8 +319,10 @@ footer .icons {
 }
 
 .icons img {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 0.3vw;
+  margin-right: 0.3vw;
+  height: 1.5vw;
+  width: auto;
 }
 
 
