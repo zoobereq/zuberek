@@ -369,8 +369,12 @@ footer .content p {
   .icons img {
     margin-left: 1vw;
     margin-right: 1vw;
-    height: 5vw;
-    width: auto;
+    height: 4vh;
+    width: auto; 
+  }
+
+  .icons img:hover {
+    transform: none;
   }
 
   footer .content h1 {
