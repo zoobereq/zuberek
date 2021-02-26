@@ -86,11 +86,13 @@ b {
   
     header .content {
       justify-content: center;
-      font-size: large;
+      font-size: small;
+      padding-left: 5vw;
+      padding-right: 5vw; 
     }
 
     header nav li {
-      padding: 0 2vw;
+      padding: 0 1vw;
     }
 
     
