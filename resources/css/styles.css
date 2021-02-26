@@ -345,13 +345,19 @@ footer .icons {
   transform: scale(1.25);
 }
 
+footer .content p {
+  display: none;
+}
+
 @media only screen and (max-width: 800px) {
   
   footer .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     font-size: small;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     padding-left: 5vw;
     padding-right: 5vw; 
   }
@@ -365,15 +371,18 @@ footer .icons {
     margin-right: 1vw;
     height: 5vw;
     width: auto;
-    transition: transform 0.25s;
-  }
-
-  .icons img:hover {
-    transform: scale(1.25);
   }
 
   footer .content h1 {
     display: none;
+  }
+
+  footer .content p {
+    display: flex;
+    text-align: center;
+    animation: none;
+    font-size: xx-small;
+    font-family: "Julius Sans One", sans-serif;;
   }
 
 }
