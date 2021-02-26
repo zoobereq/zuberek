@@ -381,14 +381,6 @@ footer .content p {
     display: none;
   }
 
-  footer .content p {
-    display: flex;
-    text-align: center;
-    animation: none;
-    font-size: xx-small;
-    font-family: "Julius Sans One", sans-serif;;
-  }
-
 }
 
 
