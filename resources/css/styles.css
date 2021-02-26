@@ -345,10 +345,6 @@ footer .icons {
   transform: scale(1.25);
 }
 
-footer p {
-  display: none;
-}
-
 @media only screen and (max-width: 800px) {
   
   footer .content {
@@ -365,9 +361,9 @@ footer p {
   }
 
   .icons img {
-    margin-left: 0.3vw;
-    margin-right: 0.3vw;
-    height: 3vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 5vw;
     width: auto;
     transition: transform 0.25s;
   }
@@ -376,8 +372,8 @@ footer p {
     transform: scale(1.25);
   }
 
-  footer p {
-    display: inline-block;
+  footer .content h1 {
+    display: none;
   }
 
 }
