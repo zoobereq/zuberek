@@ -345,7 +345,7 @@ footer .icons {
   transform: scale(1.25);
 }
 
-footer .content p {
+footer .content span {
   display: none;
 }
 
@@ -362,7 +362,8 @@ footer .content p {
     padding-right: 5vw; 
   }
 
-  footer .content h1 {
+  footer .content span {
+    display: inline; 
     font-size: x-small;
   }
 
