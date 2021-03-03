@@ -296,7 +296,7 @@ b {
       margin-left: 2.5vw;
       margin-right: 2.5vw;
       padding-top: 10vh;
-      padding-bottom: 15vh;
+      padding-bottom: 5vh;
     }
 
     .edtech-image-mobile {
@@ -307,10 +307,10 @@ b {
     }
 
     .edtech-container-mobile {
-    text-align: left;
-    animation: 1s ease-out 0s 1 slideInFromRight;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+      text-align: left;
+      animation: 1s ease-out 0s 1 slideInFromRight;
+      padding-top: 5vh;
+      padding-bottom: 10vh;
     }
 
     .edtech-container-mobile h3 {
