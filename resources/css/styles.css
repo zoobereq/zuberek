@@ -7,8 +7,8 @@ body {
 }
 
 html {
-    font-size: 1vw;
-    font-family: "Julius Sans One", sans-serif;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .main {
@@ -330,6 +330,7 @@ b {
 
   }
 
+  
   /* CompLing */
 
   #syntaxTree {
