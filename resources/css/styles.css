@@ -184,7 +184,7 @@ b {
 
     .content-mobile h1 {
       display: block;
-      font-size: small;
+      font-size: medium;
       text-align: left;
       animation: 0.75s ease-out 0s 1 slideInFromBottom;
       font-family: "Crimson Pro", serif;
@@ -338,6 +338,55 @@ b {
     max-width: auto;
     justify-content: space-evenly;
     margin: 0 5vw;
+  }
+
+  #main-compling-mobile {
+    display: none;
+  }
+
+  @media only screen and (max-width: 800px) {
+    
+    .main {
+      display: none;
+    }
+
+    #main-compling-mobile {
+      display: flex;
+      flex-direction: column;
+      margin-left: 2.5vw;
+      margin-right: 2.5vw;
+      padding-top: 10vh;
+      padding-bottom: 5vh;
+    }
+
+    .compling-image-mobile {
+      max-height: auto;
+      max-width: 100%;
+      animation: 1s ease-out 0s 1 slideInFromLeft;
+    }
+
+    .compling-container-mobile {
+      text-align: left;
+      animation: 1s ease-out 0s 1 slideInFromRight;
+      padding-top: 5vh;
+      padding-bottom: 10vh;
+    }
+
+    .compling-container-mobile h3 {
+      font-size: medium;
+    }
+
+    .compling-container-mobile p {
+      font-size: small;
+      font-weight: 200;
+      line-height: unset;
+    }
+
+    .compling-container-mobile ul {
+      font-size: small;
+      font-family:'Crimson Pro', serif;
+    }
+
   }
 
 
