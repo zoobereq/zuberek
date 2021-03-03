@@ -151,6 +151,57 @@ b {
     margin-bottom: 15vh;
   }
 
+  #main-intro-mobile {
+    display: none;
+  }
+
+  @media only screen and (max-width: 800px) {
+  
+    #main-intro {
+      display: none;
+    }
+
+    #main-intro-mobile {
+      display: flex;
+      flex-direction: column;
+      margin-left: 2.5vw;
+      margin-right: 2.5vw;
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+    }
+
+    .main-image-mobile {
+      max-height: auto;
+      max-width: 100%;
+      box-shadow: 5px 5px 5px gray;
+      animation: 1s ease-out 0s 1 slideInFromTop;
+    }
+
+    .content-mobile {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content-mobile h1 {
+      display: block;
+      font-size: small;
+      text-align: left;
+      animation: 0.75s ease-out 0s 1 slideInFromBottom;
+      font-family: "Crimson Pro", serif;
+      margin-top: 10vh;
+    }
+
+    .content-mobile h2 {
+      display: block;
+      font-size: medium;
+      text-align: left;
+      animation: 1.5s ease-out 0s 1 slideInFromBottom;
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    }
+
+  }
+
 
   /* EdTech */
 
