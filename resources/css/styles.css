@@ -452,6 +452,47 @@ b {
     box-shadow: -5px 5px 5px gray;
   }
 
+  #main-teaching-mobile {
+    display: none;
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    #main-teaching-mobile {
+      display: flex;
+      flex-direction: column;
+      margin-left: 2.5vw;
+      margin-right: 2.5vw;
+      padding-top: 10vh;
+      padding-bottom: 5vh;
+    }
+
+    .teaching-container-mobile {
+      text-align: left;
+      animation: 1s ease-out 0s 1 slideInFromRight;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+    }
+
+    .teaching-container-mobile h3 {
+      font-size: medium;
+    }
+
+    .teaching-container-mobile p {
+      font-size: medium;
+      font-weight: 200;
+      line-height: unset;
+    }
+
+    .teaching-container-mobile ul {
+      font-size: medium;
+      font-family:'Crimson Pro', serif;
+      font-weight: 200;
+      padding-bottom: 5vh;
+    }
+
+  }
+
 
 /* Footer */
 
