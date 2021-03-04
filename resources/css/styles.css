@@ -468,6 +468,13 @@ b {
       padding-bottom: 5vh;
     }
 
+    .teaching-image-mobile {
+      max-height: auto;
+      max-width: 100%;
+      box-shadow: 5px 5px 5px gray;
+      animation: 1s ease-out 0s 1 slideInFromTop;
+    }
+
     .teaching-container-mobile {
       text-align: left;
       animation: 1s ease-out 0s 1 slideInFromRight;
