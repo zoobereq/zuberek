@@ -330,7 +330,7 @@ b {
 
   }
 
-  
+
   /* CompLing */
 
   #syntaxTree {
@@ -363,7 +363,7 @@ b {
     .compling-image-mobile {
       max-height: auto;
       max-width: 100%;
-      animation: 1s ease-out 0s 1 slideInFromLeft;
+      animation: 1s ease-out 0s 1 slideInFromTop;
     }
 
     .compling-container-mobile {
