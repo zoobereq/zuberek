@@ -7,7 +7,7 @@ body {
 }
 
 html {
-  font-size: 1vw;
+  font-size: medium;
   font-family: "Julius Sans One", sans-serif;
 }
 
@@ -86,7 +86,7 @@ b {
   
     header .content {
       justify-content: center;
-      font-size: small;
+      font-size: medium;
       padding-left: 5vw;
       padding-right: 5vw; 
     }
@@ -132,7 +132,8 @@ b {
 
   .content-container h1 {
     display: block;
-    font-size: 1.5vw;
+    font-size: x-large;
+    line-height: 1.5;
     text-align: right;
     animation: 0.75s ease-out 0s 1 slideInFromRight;
     font-family: "Crimson Pro", serif;
@@ -143,7 +144,8 @@ b {
 
   .content-container h2 {
     display: block;
-    font-size: 2vw;
+    font-size: x-large;
+    line-height: 1.5;
     text-align: right;
     animation: 1s ease-out 0s 1 slideInFromRight;
     margin-left: 3vw;
@@ -164,8 +166,8 @@ b {
     #main-intro-mobile {
       display: flex;
       flex-direction: column;
-      margin-left: 2.5vw;
-      margin-right: 2.5vw;
+      margin-left: 5vw;
+      margin-right: 5vw;
       padding-top: 10vh;
       padding-bottom: 10vh;
     }
@@ -184,7 +186,7 @@ b {
 
     .content-mobile h1 {
       display: block;
-      font-size: medium;
+      font-size: large;
       text-align: left;
       animation: 0.75s ease-out 0s 1 slideInFromBottom;
       font-family: "Crimson Pro", serif;
@@ -193,7 +195,7 @@ b {
 
     .content-mobile h2 {
       display: block;
-      font-size: medium;
+      font-size: x-large;
       text-align: left;
       animation: 1.5s ease-out 0s 1 slideInFromBottom;
       margin-top: 5vh;
@@ -224,7 +226,8 @@ b {
   .content-container ul,
   #workshops-container ul,
   #xr-container ul {
-    font-size: 1.25vw;
+    font-size: large;
+    line-height: 1.5;
     font-weight: 200;
     text-align: left;
     animation: 1s ease-out 0s 1 slideInFromRight;
@@ -233,7 +236,8 @@ b {
   }
 
   h3 {
-    font-size: 1.5vw;
+    font-size: large;
+    line-height: 1.5;
     text-align: left;
     animation: 0.75s ease-out 0s 1 slideInFromRight;
   }
@@ -245,7 +249,8 @@ b {
   }
 
   #flipped ul {
-    font-size: 1.25vw;
+    font-size: large;
+    line-height: 1.5;
     font-weight: 200;
     text-align: right;
     animation: 1s ease-out 0s 1 slideInFromLeft;
@@ -293,8 +298,8 @@ b {
     #main-edtech-mobile {
       display: flex;
       flex-direction: column;
-      margin-left: 2.5vw;
-      margin-right: 2.5vw;
+      margin-left: 5vw;
+      margin-right: 5vw;
       padding-top: 10vh;
       padding-bottom: 5vh;
     }
@@ -314,17 +319,19 @@ b {
     }
 
     .edtech-container-mobile h3 {
-      font-size: medium;
+      font-size: large;
     }
 
     .edtech-container-mobile p {
-      font-size: medium;
+      font-size: large;
+      line-height: 1.25;
       font-weight: 200;
-      line-height: unset;
+      /*line-height: unset;*/
     }
 
     .edtech-container-mobile ul {
-      font-size: medium;
+      font-size: large;
+      line-height: 1.25;
       font-family:'Crimson Pro', serif;
     }
 
@@ -354,8 +361,8 @@ b {
     #main-compling-mobile {
       display: flex;
       flex-direction: column;
-      margin-left: 2.5vw;
-      margin-right: 2.5vw;
+      margin-left: 5vw;
+      margin-right: 5vw;
       padding-top: 10vh;
       padding-bottom: 5vh;
     }
@@ -374,17 +381,19 @@ b {
     }
 
     .compling-container-mobile h3 {
-      font-size: medium;
+      font-size: large;
     }
 
     .compling-container-mobile p {
-      font-size: medium;
+      font-size: large;
+      line-height: 1.25;
       font-weight: 200;
       line-height: unset;
     }
 
     .compling-container-mobile ul {
-      font-size: medium;
+      font-size: large;
+      line-height: 1.25;
       font-family:'Crimson Pro', serif;
     }
 
@@ -462,8 +471,8 @@ b {
     #main-teaching-mobile {
       display: flex;
       flex-direction: column;
-      margin-left: 2.5vw;
-      margin-right: 2.5vw;
+      margin-left: 5vw;
+      margin-right: 5vw;
       padding-top: 10vh;
       padding-bottom: 5vh;
     }
@@ -483,17 +492,19 @@ b {
     }
 
     .teaching-container-mobile h3 {
-      font-size: medium;
+      font-size: large;
     }
 
     .teaching-container-mobile p {
-      font-size: medium;
+      font-size: large;
+      line-height: 1.25;  
       font-weight: 200;
       line-height: unset;
     }
 
     .teaching-container-mobile ul {
-      font-size: medium;
+      font-size: large;
+      line-height: 1.25;
       font-family:'Crimson Pro', serif;
       font-weight: 200;
       padding-bottom: 5vh;
@@ -561,13 +572,13 @@ footer .content span {
 
   footer .content span {
     display: inline; 
-    font-size: xx-small;
+    font-size: medium;
   }
 
   .icons img {
     margin-left: 1vw;
     margin-right: 1vw;
-    height: 4vh;
+    height: auto;
     width: auto; 
   }
 
