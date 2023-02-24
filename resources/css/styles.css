@@ -86,9 +86,9 @@ b {
   
     header .content {
       justify-content: center;
-      font-size: medium;
-      padding-left: 5vw;
-      padding-right: 5vw; 
+      font-size: small;
+      /* margin-left: 10vw;
+      margin-right: 10vw; */
     }
 
     header nav li {
@@ -326,7 +326,6 @@ b {
       font-size: large;
       line-height: 1.25;
       font-weight: 200;
-      /*line-height: unset;*/
     }
 
     .edtech-container-mobile ul {
@@ -388,7 +387,6 @@ b {
       font-size: large;
       line-height: 1.25;
       font-weight: 200;
-      line-height: unset;
     }
 
     .compling-container-mobile ul {
@@ -499,7 +497,6 @@ b {
       font-size: large;
       line-height: 1.25;  
       font-weight: 200;
-      line-height: unset;
     }
 
     .teaching-container-mobile ul {
@@ -572,7 +569,7 @@ footer .content span {
 
   footer .content span {
     display: inline; 
-    font-size: medium;
+    font-size: small;
   }
 
   .icons img {
