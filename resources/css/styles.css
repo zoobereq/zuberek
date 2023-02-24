@@ -337,7 +337,7 @@ b {
   }
 
 
-  /* CompLing */
+  /* NLP */
 
   #syntaxTree {
     grid-column-start: 1;
@@ -369,6 +369,7 @@ b {
     .compling-image-mobile {
       max-height: auto;
       max-width: 100%;
+      box-shadow: 5px 5px 5px gray;
       animation: 1s ease-out 0s 1 slideInFromTop;
     }
 
