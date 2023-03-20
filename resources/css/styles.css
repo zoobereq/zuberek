@@ -14,7 +14,7 @@ html {
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 10vh;  
+  margin-top: 30vh;
   margin-left: 2.5vw;
   margin-right: 2.5vw;
   padding-bottom: 10vh;
@@ -87,8 +87,6 @@ b {
     header .content {
       justify-content: center;
       font-size: small;
-      /* margin-left: 10vw;
-      margin-right: 10vw; */
     }
 
     header nav li {
@@ -409,8 +407,6 @@ b {
     grid-template-columns: repeat(10, 1fr);
     margin-left: 2.5vw;
     margin-right: 5vw;
-    margin-top: 2.5vh;
-    max-height: 75vh;
   }
 
   #pnw {
