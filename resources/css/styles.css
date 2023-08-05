@@ -14,11 +14,12 @@ html {
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 30vh;
+  padding-top: 10vh;
   margin-left: 2.5vw;
   margin-right: 2.5vw;
   padding-bottom: 10vh;
-  align-content: center;
+  align-content: start;
+  overflow: auto; /* handles margin and padding collapse in Safari */
 }
 
 .inanimate {
@@ -122,7 +123,7 @@ b {
   .content-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: start;
     grid-column-start: 2;
     max-height: 100%;
     max-width: 100%;
@@ -407,6 +408,7 @@ b {
     grid-template-columns: repeat(10, 1fr);
     margin-left: 2.5vw;
     margin-right: 5vw;
+    /*overflow: auto;*/
   }
 
   #pnw {
